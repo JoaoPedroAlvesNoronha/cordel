@@ -1,0 +1,92 @@
+
+@font-face {
+    font-family: 'passionone' ;
+    src: url(PassionOne-Regular.ttf);
+}
+@font-face {
+    font-family: 'sriracha';
+    src: url(Sriracha-Regular.ttf);
+}
+@media(min-width: 425px) {
+    p {
+     font-size: 25px;
+    }
+   }
+   html{
+       font-size: 16px;
+   }
+body{
+    padding: 0%;
+    margin: 0%;
+}
+div{
+    width: 100%;
+    max-height: 62vh;
+
+    background-color: black;
+
+    padding-top: 5%;
+}
+h1{
+    font-family: 'passionone';
+    margin-bottom: 0%;
+    font-size: 20vh;
+    text-align: center;
+    margin-top: 0%;
+    color: white;
+}
+p{
+    font-family: 'sriracha';
+    margin-left: 2%;
+    font-size: 3em;
+    max-width: 80vh;
+    min-width: 70vh;
+    margin-bottom: 10vh;
+}
+a{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 90vh;
+    color: white;
+}
+section.imagem > p{
+    background-color: rgba(51, 51, 51, 0.356);
+    color: white;
+    box-shadow: inset 16x 6px 13px  0px black;
+    background: size 100vh;
+    background-attachment: fixed;
+}
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0,  0.253);
+    
+}
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+section#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+a:link, a:visited {
+	text-decoration: none
+	}
+a:hover {
+	text-decoration: underline;
+	color: #fff
+	}
+a:active {
+	text-decoration: none
+	}
+
+#p1{
+    margin-top: 5%;
+}
