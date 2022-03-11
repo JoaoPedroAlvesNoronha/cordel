@@ -67,6 +67,7 @@ section#img01{
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 
 }
 section#img02{
@@ -74,6 +75,7 @@ section#img02{
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
    
 }
 a:link, a:visited {
